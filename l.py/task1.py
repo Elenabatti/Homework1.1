@@ -46,18 +46,22 @@
 
 # number = int(input('Введите номер четверти x: '))
 
-# if number == 1:
-#     print(x > 0 and y >0)
-# elif number ==2:
-#     print(x < 0 and y > 0)
-# elif  number == 3:
-#     print (x < 0 and y < 0)
+# number = int(input('Введите номер четверти: '))
+
+# for x,y in range(1, len):
+#     if number == 1:
+#         print('x > 0 and y >0')
+#     elif number ==2:
+#         print('x < 0 and y > 0')
+#     elif  number == 3:
+#         print ('x < 0 and y < 0')
 # else:
-#     print(x > 0 and y < 0) 
+#     print('x > 0 and y < 0')
+
 # 
 #Task10
 #  Напишите программу, которая принимает на вход координаты 2х
-#  точек и находит расстояние между ними 2D пространстве
+#  точек и находит расстояние между ними 2D пространстве4
 # import math
 # x1, y1 = int(input()), int(input())
 # x2, y2 = int(input()), int(input())
